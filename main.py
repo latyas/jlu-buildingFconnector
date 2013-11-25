@@ -10,9 +10,9 @@ import sqlite3
 
 ERROR = {
 	'logined':'This ip has logined.',
-	'unavailable':'IP is unavailable, get an ip again',
-	'dropped':'Packet dropped occured, will reset ip',
-	'vpn_not_connect':'vpn connection does not established.'
+	'unavailable':'IP is unavailable, getting again',
+	'dropped':'Packets dropped, reseting ip',
+	'vpn_not_connect':'vpn connection was not established.'
 }
 
 def set_network_windows(ip,mac):
